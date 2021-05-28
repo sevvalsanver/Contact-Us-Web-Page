@@ -1,0 +1,320 @@
+.navbar {
+  opacity: 0.8;
+  border-bottom: 1px solid #fff;
+}
+#forms {
+  padding-top: 150px;
+  background-image: url(./492726.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#contact {
+  background: #ebecee;
+  color: black;
+
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  position: relative;
+}
+.option #messagetype {
+  text-decoration: underline;
+}
+
+#contact h2 {
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.form-control {
+  border: none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #fff;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+#contact input[type="text"],
+#contact textarea,
+#contact textarea {
+  text-transform: capitalize;
+}
+#contact h3 {
+  display: inline;
+  font-size: 17px;
+  font-weight: 150;
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
+#contact textarea:hover {
+  -webkit-transition: border-color 0.4s ease-in-out;
+  -moz-transition: border-color 0.4s ease-in-out;
+  transition: border-color 0.4s ease-in-out;
+  border: 3px solid #212429;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #aeabb3;
+  color: #fff;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#contact button[type="submit"]:hover /*imleç üzerine gelince renk değişir*/ {
+  background: #343a3f;
+  transition: background-color 0.4s ease-in-out;
+}
+
+#contact button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+/*donation properties*/
+
+#donation {
+  background: #ebecee;
+  color: black;
+
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  position: relative;
+}
+.option #donationtype {
+  text-decoration: underline;
+}
+
+#donation h2 {
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+#donation h3 {
+  font-size: 17px;
+  font-weight: 250;
+  margin-bottom: 15px;
+}
+#donation h4 {
+  font-size: 20px;
+  font-weight: 150;
+  margin-bottom: 15px;
+}
+small {
+  font-size: 12px;
+  font-weight: 150;
+}
+
+.form-control {
+  border: none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#donation input[type="text"],
+#donation input[type="email"],
+#donation input[type="tel"],
+#donation input[type="number"],
+#donation input[type="date"],
+#donation textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #fff;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+#donation input[type="text"],
+#donation textarea {
+  text-transform: capitalize;
+}
+
+#donation input[type="text"]:hover,
+#donation input[type="tel"]:hover,
+#donation input[type="email"]:hover,
+#donation input[type="number"]:hover,
+#donation input[type="date"]:hover,
+#donation textarea:hover {
+  -webkit-transition: border-color 0.4s ease-in-out;
+  -moz-transition: border-color 0.4s ease-in-out;
+  transition: border-color 0.4s ease-in-out;
+  border: 3px solid #212429;
+}
+
+#donation textarea {
+  height: 120px;
+  max-width: 100%;
+  resize: none;
+}
+
+#donation button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #aeabb3;
+  color: #fff;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#donation button[type="submit"]:hover /*imleç üzerine gelince renk değişir*/ {
+  background: #343a3f;
+  transition: background-color 0.4s ease-in-out;
+}
+
+#donation button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#donation input:focus,
+#donation textarea:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+
+.option #donationtype {
+  text-decoration: underline;
+}
+.option h3 {
+  display: inline;
+}
+/*applying properties*/
+
+#apply {
+  background: #ebecee;
+  color: black;
+
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  position: relative;
+}
+
+#apply h2 {
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 15px;
+  position: relative;
+}
+#apply h4 {
+  font-size: 20px;
+  font-weight: 150;
+  margin-bottom: 15px;
+  position: relative;
+}
+small {
+  font-size: 12px;
+  font-weight: 150;
+}
+
+.form-control {
+  border: none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#apply input[type="text"],
+#apply input[type="email"],
+#apply input[type="tel"],
+#apply input[type="number"],
+#apply input[type="date"],
+#degree,
+#job,
+#apply textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #fff;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+#apply input[type="text"],
+#apply textarea {
+  text-transform: capitalize;
+}
+
+#apply input[type="text"]:hover,
+#apply input[type="tel"]:hover,
+#apply input[type="email"]:hover,
+#apply input[type="number"]:hover,
+#apply input[type="date"]:hover,
+#job:hover,
+#degree:hover,
+#apply textarea:hover {
+  -webkit-transition: border-color 0.4s ease-in-out;
+  -moz-transition: border-color 0.4s ease-in-out;
+  transition: border-color 0.4s ease-in-out;
+  border: 3px solid #212429;
+}
+
+#apply textarea {
+  height: 120px;
+  max-width: 100%;
+  resize: none;
+}
+
+#apply button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #aeabb3;
+  color: #fff;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+.helping {
+  font-size: 15px;
+}
+
+#apply button[type="submit"]:hover /*imleç üzerine gelince renk değişir*/ {
+  background: #343a3f;
+  transition: background-color 0.4s ease-in-out;
+}
+h4 {
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+#apply button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#apply input:focus,
+#apply textarea:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer i {
+  color: white;
+  font-size: 25px;
+}
+.footer i:hover {
+  color: black;
+  transition: all 0.5s;
+}
